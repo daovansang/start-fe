@@ -1,8 +1,8 @@
 console.log('app.js');
  //변수
- var name = 'FE';
+ var name = '다오반상';
  var age= 28;
- var message ='hello'+ name;
+ var message ='hello'+ 다오반상;
 
  //댓글갯수 
  var commentCount =20;
