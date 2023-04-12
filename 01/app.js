@@ -1,56 +1,48 @@
 console.log('app.js');
- //변수
- var name = '다오반상';
- var age= 28;
- var message ='hello'+ 다오반상;
 
- //댓글갯수 
- var commentCount =20;
- doccument.getElementByTd('wrap').innerHTML = content;
- //숫자
- var count = 5;
- //문자열
- var nick = "my nick is 'fe'";
- var homepage = 'www.kakaocorp.com';
- //불린
- var isMan = true; 
- console.log(nick == '');
- console.log(!!'test');
- //chuc nang
- var log = function(str) {
-    console.log(str);
- };
- function log(str) {
-    console.log(str);
- }
- //su vat
- var imge ={};
+function log(str) {
+   console.log(str);
 
- image.width = 1;
- image.height = 2;
+}
+//
+varlog =function(str) {
+   console.log(str);
+};
 
- image['width']=1;
- image['name'+1]='1.jpg';
- image={width:1,heught:2};
- 
- //mang
- image=[];
+//
+log('hello');
 
- image[0]='1.jpg';
- image[1]='2.jpg';
+var image ={
+   width :100,
+   height:100,
+   name:'1.png',
+};
 
- image=['1.jpg',2,{name: '3.jpg'}];
+//
+var image1=[1,2,3,4,5,6,'a,',{}];
+image[0]='a';
 
- //vo gia tri
- var nick = null;
- // khong  xac dinh
-var nick;
-// 주요 연산자
+var data=null;
+var data1='';
+var data2;
+
+console.log(data,data1,data2);
+
+//
+var imageWidth =100;
+var imageHeight=100;
+var imageName='1.pnf';
+
+console.log(image,image);
+
 console.log(1+2);
 console.log('a'+'b');
-console.log('1+4');
+console.log(1+'4');
+// console.log(number);
+console.log(''=='0');
+console.log(0 =='',0,=='');
 
+if(true) {
+   console.log(1)
+}
 
-
-
- }
